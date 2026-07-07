@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            image src:("images.jpg.jpg");
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .container {
+            background: rgb(177, 172, 172);
+            width: 450px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(245, 243, 243, 0.932);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        input, select, button {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border: 1px solid #eeeaea;
+        }
+
+        button {
+            background: #0c5bbd;
+            color: rgb(243, 240, 240);
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ebedf0;
+        }
+
+        .event-info {
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>LADIES OF MARSHALL</h1>
+    <h2>REGIONAL COURT INFORMATION SYSTEM</h2>
+    <div class="event-info">
+        <strong>2026 Past Noble Lady Elevations</strong><br>
+        (25TH-27TH September 2026 )
+    </div>
+
+    <form id="regForm" action="https://formspree.io/f/xzdlqbnn" method="POST">
+        <label>Court</label>
+        <select>
+            <option>court 107, ST. Anthony's Parish</option>
+            <option>court 116, Holy Cross Parish</option>
+            <option>Court 117, St. Luke Parish</option>
+            <option>Court 134, St. Edward's Parish</option>
+            <option>Court 135, St. Martins De Porres Parish</option>
+            <option>Court 136, Our Lady Star of The Sea Parish</option>
+            <option>Court 153, Bo</option>
+            <option>Court 154, Sacred Heart</option>
+            </select>
+
+         <form>
+        <label>Rank</label>
+        <select>
+            <option>PRNL</option>
+            <option>RNL</option>
+            <option>DRNL</option>
+            <option>PNA</option>
+            <option>NA</option>
+            <option>IPNL</option>
+            <option>NL</option>
+            <option>DNL</option>
+            <option></option>
+        </select>
+    <label>Address</label>
+    <input type="text" placeholder="address">
+        <label>Mobile Number</label>
+        <input type="text" placeholder="mobile number">
+<label>Email</label>
+        <input type="text" placeholder="email">
+<label>Next of Kin</label>
+        <input type="text" placeholder="next of kin">
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
